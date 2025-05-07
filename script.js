@@ -29,15 +29,15 @@ class Teacher extends Person {
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
-let s=new Person("john",25);
+let s=new Person("John",25);
 console.log(s.name);
 s.age=30;
 console.log(s.age);
 
-let s1=new Student("john",30);
+let s1=new Student("John",30);
 s1.study();
 
-let tea=new Teacher("john",30);
+let tea=new Teacher("John",30);
 tea.teach();
 
 
